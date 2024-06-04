@@ -1,3 +1,39 @@
+
+.ring {
+  display: inline-block;
+  animation: like 2s 3s infinite;
+  
+}
+
+@keyframes like {
+  0% {
+    transform: rotate( 0deg ) scale( 1 );
+  }
+  10% {
+    transform: rotate( 15deg ) scale( 1 );
+  }
+  50% {
+    transform: rotate( -180deg ) scale( 1.4 );
+  }
+  100% {
+    transform: rotate( -360deg ) scale( 1 );
+  }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #myVideo {
   position: absolute;
   right: 0;
